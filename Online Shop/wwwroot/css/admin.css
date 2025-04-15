@@ -1,0 +1,65 @@
+﻿.div-sidebar {
+    float: left;
+    top: -30px;
+    height: 1000px;
+}
+
+@media (max-width: 960px) {
+    .div-sidebar {
+        height: 1000px;
+    }
+}
+
+
+.side-li {
+    list-style-type: none;
+    padding: 25px;
+}
+
+@media (max-width: 969px) {
+
+    .side-li {
+        margin-left: -80px
+    }
+}
+
+.a-side {
+    text-decoration: none !important;
+    color: white;
+}
+
+@media (max-width:960px) {
+    .p-side {
+        margin-left: -20px;
+    }
+}
+
+.div-mid-body {
+    float: right;
+    height: 1000px
+}
+
+.h1-dashboard {
+    display: inline;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

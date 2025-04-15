@@ -1,0 +1,313 @@
+﻿.div-sidebar {
+    float: left;
+    top: -30px;
+    height: 1000px;
+}
+
+@media (max-width: 960px) {
+    .div-sidebar {
+        height: 1000px;
+    }
+}
+
+
+.side-li {
+    list-style-type: none;
+    padding: 25px;
+}
+
+@media (max-width: 969px) {
+
+    .side-li {
+        margin-left: -80px
+    }
+}
+
+.a-side {
+    text-decoration: none !important;
+    color: white;
+}
+
+@media (max-width:960px) {
+    .p-side {
+        margin-left: -20px;
+    }
+}
+
+.div-mid-body {
+    float: right;
+    height: 1000px
+}
+
+.h1-dashboard {
+    display: inline;
+    color: black;
+}
+
+
+
+
+/*Column Cards*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.sas {
+    margin-top: 20px;
+}
+/*Column Cards end*/
+
+
+
+
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th, td {
+    text-align: center;
+    padding: 16px;
+}
+
+    th:first-child, td:first-child {
+        text-align: left;
+    }
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-remove {
+    color: red;
+}
+
+.adss {
+    float: left;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing: border-box
+}
+
+
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+/* Green */
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+/* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+/* Red */
+.php {
+    width: 60%;
+    background-color: #808080;
+}
+/* Dark Grey */
+
+.dfgdaeee {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
